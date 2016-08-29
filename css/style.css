@@ -22,7 +22,6 @@ body:after {
     background-attachment: fixed;
     background-size:  cover;
     background-color: #459ad0;
-    opacity : 0.8;
     z-index: -1;
 }
 
@@ -62,7 +61,8 @@ header {
 }
 
 .social-icons span {
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .social-icons > a:link,
