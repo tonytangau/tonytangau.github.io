@@ -33,3 +33,31 @@ body {
     color: #459ad0;
     transition: color 1s ease;
 }
+
+.hidden {
+    display: none;
+    position: absolute;
+    left: 0;
+    border: 1px solid lightgrey;
+    padding: 12px 16px;
+}
+
+.hidden span {
+    flex: 0 50%;
+    color: #494949;
+}
+
+.hover-me {
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-me:hover {
+    color: #459ad0;
+    transition: color .5s ease;
+}
+
+.hover-me:hover .hidden  {
+    display: flex;
+    flex-wrap: wrap;
+}
